@@ -80,10 +80,24 @@ li{
   text-align: left;
   color: aliceblue;
   background: #151515cc;
+  padding: 20px;
 }
 .quest{
   background-image: url(../images/back2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+img {
+  width: 100%;
+  max-width: 730px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 900px) {
+  .wdth {
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
 }
